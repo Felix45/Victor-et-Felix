@@ -1,0 +1,21 @@
+.pushCenter {
+  /* margin: 0 auto;
+  width: 50%;
+  display: block; */
+}
+
+.floatingNavBar {
+  top: 0;
+  position: absolute;
+}
+
+.flexBoxing {
+  display: flex;
+  justify-content: center;
+}
+@media screen and(max-width: 767px) {
+  .floatingNavBar {
+    top: 0;
+    position: fixed;
+  }
+}
