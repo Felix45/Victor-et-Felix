@@ -1,7 +1,7 @@
 .pushCenter {
-  /* margin: 0 auto;
+  margin: 0 auto;
   width: 50%;
-  display: block; */
+  display: block;
 }
 
 .floatingNavBar {
@@ -12,6 +12,11 @@
 .flexBoxing {
   display: flex;
   justify-content: center;
+}
+nav li {
+  display: inline;
+  display: inline-block;
+  padding-left: 1rem;
 }
 @media screen and(max-width: 767px) {
   .floatingNavBar {
