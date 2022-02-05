@@ -39,14 +39,16 @@
      
     </section>
     <section>
-      <form id="form" action="https://www.freecodecamp.com/email-submit"> 
-        <input type="email" id="email" placeholder="Enter your email address"/>
-        <input type="submit" id="submit" >
+      <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST"> 
+        <input type="email" id="email" name="email" placeholder="Enter your email address"/>
+        <input type="submit" id="submit" name="submit" >
       </form>
     </section>
-    
-    <p class="flexBoxing">Hello World, we are software developers!</p>
-    <script  src="js/index.js"></script>
     </div>
+
+    <p class="flexBoxing">Hello World, we are software developers!</p>
+    
+    <script  src="js/index.js"></script>
+    
   </body>
 </html>

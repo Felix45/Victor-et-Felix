@@ -19,8 +19,7 @@ nav li {
   padding-left: 1rem;
 }
 @media screen and(max-width: 767px) {
-  .floatingNavBar {
-    top: 0;
-    position: fixed;
+  body {
+    background: grey;
   }
 }
